@@ -8,9 +8,8 @@ describe('ListarImagenComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ListarImagenComponent ]
-    })
-    .compileComponents();
+      declarations: [ListarImagenComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

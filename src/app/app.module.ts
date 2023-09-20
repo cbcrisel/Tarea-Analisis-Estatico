@@ -18,14 +18,10 @@ import { SpinnerComponent } from './shared/spinner/spinner.component';
     ListarImagenComponent,
     NavbarComponent,
     ErrorComponent,
-    SpinnerComponent
+    SpinnerComponent,
   ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, FormsModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
